@@ -1,0 +1,211 @@
+# ============================================================================
+# PYTEST FRAMEWORK REQUIREMENTS - VERIFIED VERSIONS
+# Based on actual working environment - December 2025
+# Python: 3.12+
+# ============================================================================
+
+# ============================================================================
+# CORE TESTING FRAMEWORK
+# ============================================================================
+pytest==8.4.2
+pytest-playwright==0.7.2
+pytest-html==4.1.1
+pytest-xdist==3.8.0
+pytest-base-url==2.1.0
+pytest-metadata==3.1.1
+pytest-json-report==1.5.0
+pytest-asyncio==0.23.8
+
+# ============================================================================
+# PLAYWRIGHT BROWSER AUTOMATION
+# ============================================================================
+playwright==1.57.0
+pyee==13.0.0
+
+# ============================================================================
+# REPORTING
+# ============================================================================
+allure-pytest==2.15.2
+allure-python-commons==2.15.2
+
+# ============================================================================
+# CONFIGURATION & DATA HANDLING
+# ============================================================================
+pyyaml==6.0.3
+python-dotenv==1.2.1
+
+# ============================================================================
+# ACCESSIBILITY TESTING
+# ============================================================================
+axe-playwright-python==0.1.7
+
+# ============================================================================
+# AI/LLM INTEGRATION
+# ============================================================================
+# LangChain
+langchain==1.1.3
+langchain-openai==1.1.2
+langchain-community==0.4.1
+langchain-core==1.2.4
+langchain-huggingface==1.2.0
+langchain-text-splitters==1.0.0
+langsmith==0.4.59
+
+# OpenAI
+openai==2.11.0
+
+# ============================================================================
+# RAGAS EVALUATION FRAMEWORK
+# ============================================================================
+ragas==0.4.1
+
+# ============================================================================
+# EMBEDDINGS & NLP
+# ============================================================================
+# HuggingFace
+sentence-transformers==5.2.0
+transformers==4.57.3
+huggingface-hub==0.36.0
+tokenizers==0.22.1
+
+# PyTorch
+torch==2.9.1
+torchvision==0.24.1
+
+# NLP Processing
+nltk==3.9.2
+
+# ============================================================================
+# ASYNC & CONCURRENCY
+# ============================================================================
+nest-asyncio==1.6.0
+aiohttp==3.13.2
+aiosignal==1.4.0
+aiohappyeyeballs==2.6.1
+aiofiles==25.1.0
+frozenlist==1.8.0
+multidict==6.7.0
+propcache==0.4.1
+yarl==1.22.0
+
+# ============================================================================
+# HTTP & API
+# ============================================================================
+requests==2.32.5
+urllib3==2.6.2
+httpx==0.28.1
+httpcore==1.0.9
+httpx-sse==0.4.3
+h11==0.16.0
+
+# ============================================================================
+# DATA PROCESSING & ML
+# ============================================================================
+numpy==2.2.6
+pandas==2.3.3
+datasets==4.4.1
+pyarrow==22.0.0
+scikit-learn==1.8.0
+scipy==1.16.3
+
+# ============================================================================
+# DOCUMENT PROCESSING
+# ============================================================================
+python-docx==1.2.0
+python-pptx==1.0.2
+openpyxl==3.1.5
+xlrd==2.0.2
+xlsxwriter==3.2.9
+pypdf==6.4.2
+pdf2image==1.17.0
+pdfminer.six==20251107
+pikepdf==10.0.3
+pypdfium2==5.2.0
+
+# Unstructured document parsing
+unstructured==0.18.21
+unstructured-client==0.42.6
+unstructured_inference==1.1.2
+
+# ============================================================================
+# IMAGE PROCESSING
+# ============================================================================
+pillow==12.0.0
+opencv-python==4.12.0.88
+matplotlib==3.10.8
+
+# ============================================================================
+# UTILITIES
+# ============================================================================
+python-dateutil==2.9.0.post0
+certifi==2025.11.12
+charset-normalizer==3.4.4
+idna==3.11
+colorama==0.4.6
+click==8.3.1
+typer==0.20.0
+rich==14.2.0
+tqdm==4.67.1
+
+# ============================================================================
+# PARSING & TEXT PROCESSING
+# ============================================================================
+beautifulsoup4==4.14.3
+lxml==6.0.2
+html5lib==1.1
+markdown==3.10
+markdown-it-py==4.0.0
+mdurl==0.1.2
+
+# ============================================================================
+# VALIDATION & SERIALIZATION
+# ============================================================================
+pydantic==2.12.5
+pydantic_core==2.41.5
+pydantic-settings==2.12.0
+marshmallow==3.26.1
+dataclasses-json==0.6.7
+
+# ============================================================================
+# CORE DEPENDENCIES
+# ============================================================================
+packaging==25.0
+typing_extensions==4.15.0
+attrs==25.4.0
+iniconfig==2.3.0
+pluggy==1.6.0
+filelock==3.20.0
+jinja2==3.1.6
+markupsafe==3.0.3
+
+# ============================================================================
+# OPTIONAL BUT USEFUL
+# ============================================================================
+# Logging
+coloredlogs==15.0.1
+
+# Caching
+diskcache==5.6.3
+cachetools==6.2.4
+
+# JSON handling
+orjson==3.11.5
+ormsgpack==1.12.0
+jsonpatch==1.33
+jsonpointer==3.0.0
+
+# ============================================================================
+# NOTES
+# ============================================================================
+# Installation instructions:
+# 1. Create virtual environment: python -m venv venv
+# 2. Activate:
+#    - Windows: .\venv\Scripts\Activate.ps1
+#    - Linux/Mac: source venv/bin/activate
+# 3. Install: pip install -r requirements_verified.txt
+# 4. Install Playwright browsers: playwright install chromium
+# 5. Download NLTK data: python -c "import nltk; nltk.download('punkt'); nltk.download('averaged_perceptron_tagger')"
+# 6. Install Allure CLI separately (not in pip):
+#    - Windows: scoop install allure
+#    - Mac: brew install allure
+#    - Linux: sudo apt-get install allure

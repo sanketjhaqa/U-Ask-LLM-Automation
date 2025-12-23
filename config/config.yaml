@@ -1,0 +1,12 @@
+base_url: "https://govgpt.sandbox.dge.gov.ae/"
+username: "qatest1@dge.gov.ae"
+password: "DGEUser100!"
+default_language: "en"
+timeout_ms: 60000
+openApiKey: ""
+PERPLEXITY_API_KEY: ""
+RAGA_APP_TOKEN: ""
+
+# Video Recording Configuration (ADD THESE)
+enable_video_recording: false  # Set to true to enable, false to disable
+video_dir: "videos/"           # Directory to save videos
