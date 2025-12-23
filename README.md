@@ -778,6 +778,9 @@ pytest -m ai -v                    # AI/RAGAS
 
 ---
 
+## Execution Screenshot:
+![img.png](img.png)
+
 **Happy Testing! 🚀**
 
 *For detailed setup instructions and troubleshooting, see [SETUP_GUIDE.md](SETUP_GUIDE.md)*
