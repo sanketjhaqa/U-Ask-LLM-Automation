@@ -210,8 +210,8 @@ Located at: `config/config.yaml`
 base_url: "https://govgpt.sandbox.dge.gov.ae/"
 
 # Test credentials
-username: "qatest1@dge.gov.ae"
-password: "DGEUser100!"
+username: ""
+password: ""
 
 # General settings
 default_language: "en"
