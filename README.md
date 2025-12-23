@@ -779,7 +779,8 @@ pytest -m ai -v                    # AI/RAGAS
 ---
 
 ## Execution Screenshot:
-![img.png](img.png)
+<img width="1755" height="2222" alt="image" src="https://github.com/user-attachments/assets/88af2451-d256-4688-8449-98eda6678f78" />
+
 
 **Happy Testing! 🚀**
 
