@@ -1,0 +1,402 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================================================
+# PLAYWRIGHT
+# ============================================================================
+
+# Playwright browsers and cache
+.playwright/
+
+# Playwright traces (if enabled)
+test-results/
+playwright-report/
+
+# ============================================================================
+# TEST REPORTS & RESULTS
+# ============================================================================
+
+# HTML Reports
+reports/report.html
+reports/assets/
+reports/*.html
+
+# Allure Reports
+reports/allure-results/
+reports/allure-report/
+.allure/
+allure-results/
+allure-report/
+
+# Screenshots (keep structure, ignore content)
+reports/screenshots/*.png
+reports/screenshots/*.jpg
+
+# Axe Reports
+reports/axe_*.json
+
+# JUnit XML
+reports/junit.xml
+reports/*.xml
+
+# ============================================================================
+# VIDEO RECORDINGS
+# ============================================================================
+
+# Test execution videos
+videos/
+*.webm
+*.mp4
+*.avi
+
+# ============================================================================
+# LOGS
+# ============================================================================
+
+# Application logs
+logs/
+
+# ============================================================================
+# IDE / EDITORS
+# ============================================================================
+
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+\#*\#
+.\#*
+
+# Visual Studio
+.vs/
+
+# ============================================================================
+# OPERATING SYSTEM
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# SECURITY & SENSITIVE DATA
+# ============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# API Keys and Secrets
+secrets.yaml
+secrets.json
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Credentials
+credentials.json
+credentials.yaml
+auth.json
+auth.yaml
+
+# ============================================================================
+# TEMPORARY FILES
+# ============================================================================
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+*.pyc
+*.pyo
+*.pyd
+
+# Backup files
+*~
+*.backup
+*.old
+
+# ============================================================================
+# DEPENDENCIES
+# ============================================================================
+
+# Node modules (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================================================
+# PROJECT SPECIFIC
+# ============================================================================
+
+# Test data backups
+data/test_data.json.backup
+data/*.backup
+
+# Page object backups
+pages/*_backup*.py
+
+# Old test files
+tests/*_old.py
+tests/*_backup.py
+
+# Experimental files
+*_experiment*.py
+*_test_*.py
+scratch/
+sandbox/
+
+# Local configuration overrides
+config/config.local.yaml
+config/*.local.yaml
+
+# ============================================================================
+# NLTK DATA (Keep structure, ignore if downloaded)
+# ============================================================================
+# Note: nltk_data is included in repo, so we don't ignore it
+# If you want to download fresh each time, uncomment below:
+# nltk_data/
+
+# ============================================================================
+# DOCUMENTATION DRAFTS
+# ============================================================================
+
+# Draft documentation
+*_DRAFT.md
+*_TODO.md
+NOTES.md
+notes/
+
+# ============================================================================
+# PERFORMANCE & PROFILING
+# ============================================================================
+
+# Profiling data
+*.prof
+.prof/
+profile_stats
+
+# ============================================================================
+# CI/CD
+# ============================================================================
+
+# CI artifacts (if running locally)
+.gitlab-ci-local/
+.github-actions-local/
+
+# ============================================================================
+# PYTHON SPECIFIC (Additional)
+# ============================================================================
+
+# Virtual environment variations
+.venv/
+venv*/
+ENV*/
+env*/
+
+# Poetry
+poetry.lock
+
+# ============================================================================
+# KEEP THESE FILES (Examples of what NOT to ignore)
+# ============================================================================
+# !requirements.txt
+# !requirements_minimal.txt
+# !requirements_verified.txt
+# !pytest.ini
+# !conftest.py
+# !config/config.yaml
+# !README.md
+# !SETUP_GUIDE.md
+
+# ============================================================================
+# CUSTOM IGNORES (Add your own below)
+# ============================================================================
+
+# Add project-specific ignores here
